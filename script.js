@@ -17,7 +17,6 @@ function compute() {
 }
 //Steps 7-9
 function visualize() {
-    var slider = document.getElementById("rate").value;
-    return document.getElementById("rate").innerHTML = slider;
+    document.getElementById("interest_rate").innerHTML = document.getElementById("rate).value+'%';
 }
         
